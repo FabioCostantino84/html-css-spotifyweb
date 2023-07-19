@@ -5,14 +5,44 @@
     box-sizing: border-box;
 }
 
+.debug #site_footer{
+    background-color: #e851f3;
+    border: 1px dashed black;
+}
+.debug #site_main{
+    background-color: #e851f3;
+    border: 1px dashed black;
+}
+.debug .sidebar{
+    background-color: #2ff32f;
+    border: 1px dashed black;
+}
+.debug .screen{
+    background-color: #2ff32f;
+    border: 1px dashed black;
+}
 /* utilities */
 
 
 
 /* #region main */
+
+#site_main{
+    height: calc(100vh - 90px);
+}
+
+.sidebar{
+    width: 230px;
+    height: 100%;
+}
 /* #endregion main */
 
 
 
 /* #region footer */
+
+#site_footer{
+    width: 100%;
+    height: 90px;
+}
 /* #endregion footer */
