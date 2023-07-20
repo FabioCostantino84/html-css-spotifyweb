@@ -109,6 +109,7 @@ h5 {
     width: calc(100% - 230px);
     background-color: var(--sp-primary);
     padding-top: 70px;
+    overflow-y: auto;
 }
 
 .banner_up {
@@ -150,15 +151,26 @@ h5 {
 /* #region media query */
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .col-md-3 {
+        width: calc(100% / 12 * 3);
+    }
+}
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
 
 @media screen and (max-width: 475px) {
     .sidebar {
         width: 50px;
     }
     .screen {
+        width: calc(100% - 50px);
+    }
+    .banner_up {
         width: calc(100% - 50px);
     }
 }
