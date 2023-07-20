@@ -29,6 +29,9 @@ body {
 a {
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 
 
 /* utilities */
@@ -54,6 +57,13 @@ a {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    margin: 0 -1rem;
+}
+.col-lg-2 {
+    width: calc(100% / 12 * 2);
 }
 
 
@@ -97,6 +107,9 @@ a {
 }
 .btn_container{
     padding: 0 1rem;
+}
+.img_container{
+    position: relative;
 }
 
 /* #endregion main */
