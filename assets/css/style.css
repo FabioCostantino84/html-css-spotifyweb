@@ -27,35 +27,37 @@ body {
 
 /* #region main */
 
-#site_main{
+#site_main {
     height: calc(100vh - 90px);
     display: flex;
 
 }
 
-.sidebar{
+.sidebar {
     width: 230px;
     height: 100%;
     background-color: var(--sp-black);
 
 }
-.screen{
+
+.screen {
     height: 100%;
     width: calc(100% - 230px);
     background-color: var(--sp-primary);
 }
+
 /* #endregion main */
 
 
 
 /* #region footer */
 
-#site_footer{
+#site_footer {
     width: 100%;
     height: 90px;
     background-color: var(--sp-dark)
-
 }
+
 /* #endregion footer */
 
 
@@ -63,18 +65,17 @@ body {
 /* #region media query */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {}
 
-
-}
-
-@media screen and (max-width: 600px) {
-    
-    
-}
+@media screen and (max-width: 600px) {}
 
 @media screen and (max-width: 475px) {
-
+    .sidebar {
+        width: 50px;
+    }
+    .screen {
+        width: calc(100% - 50px);
+    }
 }
 
 
