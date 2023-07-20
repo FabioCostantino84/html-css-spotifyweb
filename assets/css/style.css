@@ -100,7 +100,6 @@ img{
     background-color: var(--sp-black);
     color: var(--sp-white);
     border: 1px solid var(--sp-white);
-    text-transform: uppercase;
     font-size: 0.75rem;
     font-weight: bold;
     width: max-content;
