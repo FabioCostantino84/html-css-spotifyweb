@@ -109,8 +109,13 @@ h5 {
     background-color: var(--sp-black);
 
 }
-
-.sidebar_nav{
+.logo {
+    height: 70px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.big_logo{
+    width: 70%;
 }
 
 .screen {
