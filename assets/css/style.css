@@ -66,6 +66,12 @@ img{
     width: calc(100% / 12 * 2);
 }
 
+/* spacing */
+
+.p-2{
+    padding: 1rem;
+}
+
 
 
 /* #region main */
@@ -86,6 +92,7 @@ img{
     height: 100%;
     width: calc(100% - 230px);
     background-color: var(--sp-primary);
+    padding-top: 70px;
 }
 
 .banner_up {
@@ -106,9 +113,6 @@ img{
 }
 .btn_container{
     padding: 0 1rem;
-}
-.img_container{
-    position: relative;
 }
 
 /* #endregion main */
