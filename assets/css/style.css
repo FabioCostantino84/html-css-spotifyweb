@@ -74,6 +74,9 @@ h5 {
 .flex-wrap {
     flex-wrap: wrap;
 }
+.dir_column {
+    flex-direction: column;
+}
 .text-align-center{
     text-align: center;
 }
@@ -105,6 +108,9 @@ h5 {
     height: 100%;
     background-color: var(--sp-black);
 
+}
+
+.sidebar_nav{
 }
 
 .screen {
@@ -183,3 +189,11 @@ h5 {
 
 
 /* #endregion media query */
+
+/* debug */
+
+.nav-top, .nav-bottom{
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+}
