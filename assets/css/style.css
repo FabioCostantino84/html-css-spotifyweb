@@ -80,6 +80,9 @@ h5 {
 .text-align-center{
     text-align: center;
 }
+.list-unstyled {
+    list-style: none;
+}
 .row {
     display: flex;
     margin: 0 -1rem;
@@ -92,6 +95,12 @@ h5 {
 
 .p-2{
     padding: 1rem;
+}
+.pt-2 {
+    padding-top: 1rem;
+}
+.gap-2 {
+    gap: 1rem;
 }
 
 
@@ -107,6 +116,7 @@ h5 {
     width: 230px;
     height: 100%;
     background-color: var(--sp-black);
+    font-weight: bold;
 
 }
 .logo {
@@ -116,6 +126,40 @@ h5 {
 }
 .big_logo{
     width: 70%;
+}
+.nav-top {
+    color: var(--sp-light);
+    font-size: 0.75rem;
+}
+.menu_nav div{
+    margin-bottom: 1rem;
+}
+.menu_nav, .label{
+    padding-left: 1rem;
+}
+.label_icon img {
+    width: 25px;
+    height: 100%;
+}
+.playlist {
+    padding: 1rem 0 1rem 1rem;
+    height: 250px;
+    overflow-y: auto;
+}
+.playlist h4 {
+    color: var(--sp-white);
+    padding-bottom: 1rem;
+}
+.plus {
+    background-color: var(--sp-light);
+    color: var(--sp-black);
+    padding: 0.5rem;
+}
+.plus i {
+    font-weight: 900;
+}
+.playlist li {
+    padding-top: 1rem;
 }
 
 .screen {
@@ -197,8 +241,8 @@ h5 {
 
 /* debug */
 
-.nav-top, .nav-bottom{
+/* .nav-top, .nav-bottom{
     background-color: yellow;
     width: 100%;
     height: 50px;
-}
+} */
