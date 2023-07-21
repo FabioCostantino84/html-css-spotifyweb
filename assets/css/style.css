@@ -360,8 +360,7 @@ button.add {
 
 /* debug */
 
-.nav_left, .nav_center, .nav_right{
+.nav_center, .nav_right{
     height: 100%;
     width: 230px;
-    background-color: red;
 }
