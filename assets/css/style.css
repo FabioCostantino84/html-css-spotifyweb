@@ -169,6 +169,9 @@ h5 {
     color: var(--sp-white);
     margin-left: -16px;
 }
+.active-bottom {
+    border-bottom: 2px solid var(--sp-success);
+}
 .home{
     margin-left: 15px;
 }
@@ -257,6 +260,10 @@ button.add {
 
 .btn_container {
     padding: 0 1rem;
+}
+.type_selection{
+    color: var(--sp-light);
+    padding: 2rem;
 }
 
 .img_round {
