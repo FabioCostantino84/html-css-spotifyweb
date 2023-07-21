@@ -90,6 +90,10 @@ h5 {
 .col-lg-2 {
     width: calc(100% / 12 * 2);
 }
+.d-none{
+    display: none;
+}
+
 
 /* spacing */
 
@@ -125,14 +129,17 @@ h5 {
     padding-left: 1rem;
 }
 .big_logo{
-    width: 70%;
+    width: 40%;
+}
+.sm_logo{
+    width: 80%;
 }
 .nav-top {
     color: var(--sp-light);
     font-size: 0.75rem;
 }
 .menu_nav div{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .menu_nav, .label{
     padding-left: 1rem;
@@ -233,6 +240,12 @@ h5 {
     }
     .banner_up {
         width: calc(100% - 50px);
+    }
+    .d-none-sm{
+        display: none;
+    }
+    .d-block-sm{
+        display: block;
     }
 }
 
