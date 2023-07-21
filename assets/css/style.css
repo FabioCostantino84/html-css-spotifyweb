@@ -265,6 +265,34 @@ button.add {
     color: var(--sp-light);
     padding: 2rem;
 }
+.img_container{
+    position: relative;
+}
+.img_container i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    display: none;
+}
+
+.img_container>.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.img_container:hover .icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.img_container:hover i {
+    display: block;
+}
 
 .img_round {
     border-radius: 50%;
