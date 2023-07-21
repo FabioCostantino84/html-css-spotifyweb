@@ -14,7 +14,7 @@
 
         <!-- sidebar nav -->
         <section class="sidebar">
-            <nav class="sidebar_nav">
+            <nav class="sidebar_nav d-flex dir_column justify-between">
                 <div class="nav-top">
 
                     <!-- logo -->
@@ -49,18 +49,20 @@
                     </div>
 
 
-                    <div class="playlist">
+                    <div class="playlist d-none-sm">
                         <h4>
                             Playlist
                         </h4>
-                        <div class="create_playlist d-flex align-items-center gap-2">
-                            <div class="plus">
-                                <i class="fa-solid fa-plus fa-xl"></i>
-                            </div>
+                        <div class="add_playlist d-flex align-items-center gap-2">
+                            <button class="add">
+                                <i class="fa-solid fa-plus" style="color: #000000;"></i>
+                            </button>
+        
                             <div>
                                 Crea Playlist
                             </div>
                         </div>
+
                         <ul class="list-unstyled pt-2">
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
@@ -75,6 +77,16 @@
                 </div>
 
                 <div class="nav-bottom">
+                    <div class="nav_bottom_top d-flex align-items-center">
+                        <img src="./assets/img/download.svg" alt="">
+                        <span>Installa App</span>
+
+                    </div>
+                    <hr>
+                    <div class="nav_bottom_bottom d-flex align-items-center">
+                        <img src="./assets/img/profile.svg" alt="">
+                        <span>John Doe</span>
+                    </div>
 
                 </div>
 
