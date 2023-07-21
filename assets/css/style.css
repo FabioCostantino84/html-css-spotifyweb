@@ -164,6 +164,14 @@ h5 {
     color: var(--sp-light);
     font-size: 0.75rem;
 }
+.active {
+    border-left: 2px solid var(--sp-success);
+    color: var(--sp-white);
+    margin-left: -16px;
+}
+.home{
+    margin-left: 15px;
+}
 
 .menu_nav div {
     margin-bottom: 0.5rem;
@@ -305,6 +313,13 @@ button.add {
 
     .d-block-sm {
         display: block;
+    }
+    .active-sm {
+        border-left: 0;
+        margin: 0
+    }
+    .home-sm{
+        margin-left: 0px;
     }
 }
 
