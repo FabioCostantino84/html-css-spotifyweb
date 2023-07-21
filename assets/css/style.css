@@ -111,6 +111,10 @@ h5 {
 
 /* spacing */
 
+.p-05{
+    padding: 0.25rem;
+}
+
 .p-2 {
     padding: 1rem;
 }
@@ -137,6 +141,9 @@ h5 {
     height: calc(100vh - 90px);
     background-color: var(--sp-black);
     font-weight: bold;
+}
+.sidebar_nav{
+    height: 100%;
 }
 
 .logo {
@@ -187,6 +194,7 @@ button.add {
     width: 30px;
     height: 30px;
     background-color: var(--sp-light);
+    border: none;
 }
 .nav_bottom_top img{
     width: 20px;
