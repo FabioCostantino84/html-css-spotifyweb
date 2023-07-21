@@ -303,6 +303,17 @@ button.add {
     color: var(--sp-white);
     padding: 0.25rem;
 }
+.status_player{
+    padding-bottom: 2.5rem;
+}
+.bar_player, .bar_audio{
+    width: 100%;
+    height: 3px;
+    background-color: var(--sp-white);
+}
+.timer{
+    padding: 0 0.5rem;
+}
 
 /* #endregion footer */
 
@@ -360,7 +371,11 @@ button.add {
 
 /* debug */
 
-.nav_center, .nav_right{
+.nav_center{
+    height: 100%;
+    width: 100%;
+}
+.nav_right{
     height: 100%;
     width: 230px;
 }
